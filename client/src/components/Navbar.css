@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #34c5e3;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1cm;
+}
+ 
+.nav-items-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav-items-container > * {
+  margin: 0 10px;
+}
+
+
+.nav-link-effect {
+   font-size: 25px;
+  border-style: solid;
+  border-width: 0.05cm;
+  font-weight: 500;
+  border-color: black;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.coll{
+  color: black;
+  background-color: black;
+  
+}
+.nav-link-effect:hover {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  transform: translateY(-2px);
+}
+
+.nav-link:hover {
+  font-size: 30px;
+ color: white;
+   background-color: #000000;
+}
